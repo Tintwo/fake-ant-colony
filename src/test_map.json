@@ -1,0 +1,168 @@
+{
+  "width": 4,
+  "height": 6,
+  "map": [
+    {
+      "type": "water",
+      "ressources": {
+        "water": 10000
+      }
+    },
+    {
+      "type": "water",
+      "ressources": {
+        "water": 10000
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "water",
+      "ressources": {
+        "water": 10000
+      }
+    },
+    {
+      "type": "water",
+      "ressources": {
+        "water": 10000
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "forest",
+      "ressources": {
+        "wood": 100,
+        "leave": 3000
+      }
+    },
+    {
+      "type": "water",
+      "ressources": {
+        "water": 10000
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "forest",
+      "ressources": {
+        "wood": 100,
+        "leave": 3000
+      }
+    },
+    {
+      "type": "water",
+      "ressources": {
+        "water": 10000
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "forest",
+      "ressources": {
+        "wood": 100,
+        "leave": 3000
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "forest",
+      "ressources": {
+        "wood": 100,
+        "leave": 3000
+      }
+    },
+    {
+      "type": "forest",
+      "ressources": {
+        "wood": 100,
+        "leave": 3000
+      }
+    },
+    {
+      "type": "grass",
+      "ressources": {
+        "wood": 10,
+        "leave": 150
+      }
+    },
+    {
+      "type": "forest",
+      "ressources": {
+        "wood": 100,
+        "leave": 3000
+      }
+    },
+    {
+      "type": "forest",
+      "ressources": {
+        "wood": 100,
+        "leave": 3000
+      }
+    },
+    {
+      "type": "forest",
+      "ressources": {
+        "wood": 100,
+        "leave": 3000
+      }
+    }
+  ]
+}

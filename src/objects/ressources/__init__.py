@@ -1,1 +1,1 @@
-__all__ = ["ressource", "leave"]
+__all__ = ["ressource", "leave", "wood"]
