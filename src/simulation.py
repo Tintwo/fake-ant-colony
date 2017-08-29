@@ -92,6 +92,14 @@ class World:
         else:
             return False
 
+    def write_output_world(self):
+        txt_map = ''
+        for i in range(self.size):
+            txt_map += self.map[i].get_infos_compress()
+            if i % self.width == self.width - 1:
+                print(txt_map)
+                txt_map = ''
+
 
 class Chunk:
     def __init__(self, data):
@@ -104,6 +112,13 @@ class Chunk:
             elements.append("%s(%d)" % (e, self.ressources[e]))
         infos = "Chunk details: type '%s' with %s" % (self.type, ', '.join(elements))
         print(infos)
+
+    def get_infos_compress(self):
+        elements = []
+        for e in self.ressources:
+            elements.append("(%s|%s)" % (e, self.ressources[e]))
+        infos = "[%s]" % (''.join(elements))
+        return infos
 
     def add_ressource(self, rsc):
         pass
@@ -124,3 +139,5 @@ world.get_chunk_infos(19)
 # print(dir(objects))
 # print(objects.ressources.__all__)
 # print(test3.TYPE)
+
+world.write_output_world()
